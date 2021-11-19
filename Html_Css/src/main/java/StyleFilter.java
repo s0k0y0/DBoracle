@@ -1,5 +1,4 @@
 
-
 import java.io.IOException;
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
@@ -9,9 +8,7 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebFilter;
 
-/**
- * Servlet Filter implementation class StyleFilter
- */
+
 @WebFilter("/Css/style/*")
 public class StyleFilter implements Filter {
 
